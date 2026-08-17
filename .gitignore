@@ -1,0 +1,87 @@
+# =========================
+# Sistemas Operacionais
+# =========================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# =========================
+# Editores de Código e IDEs
+# =========================
+.vscode/
+.idea/
+*.swp
+*.swo
+.project
+.settings/
+
+# =========================
+# Variáveis de Ambiente e Credenciais
+# =========================
+# NUNCA suba arquivos com senhas, chaves de API ou configurações locais
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.pem
+secrets.json
+
+# =========================
+# Python / Ambientes Virtuais
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Diretórios de Ambientes Virtuais
+venv/
+.venv/
+env/
+.env/
+ENV/
+
+# Ferramentas de empacotamento e testes
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+htmlcov/
+.tox/
+.coverage
+coverage.xml
+
+# =========================
+# Django (Framework Web)
+# =========================
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+
+# =========================
+# Logs e Bancos de Dados Locais
+# =========================
+*.sqlite
+*.db
